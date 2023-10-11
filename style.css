@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0px;  /* margem*/
+    padding: 0px; /*preenchimento*/
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+main{
+    width: 100vw; /*largura */
+    height: 100vw; /*altura*/
+    background: #F5F5F5; /*fundo*/
+    display: flex; /*mostrar*/
+    justify-content: center; /*justiicar conteudo*/
+    align-items: center; /* itens alinhado*/}
+
+.left{
+    
+    
+    width: 329px; /*largura*/
+    height: 583px;
+    background: #F5F5F5; /*cor de fundo*/
+    color: white; /*cor*/
+    text-align: center; /*alinhamento de texto*/
+    display: flex; /*mostrar*/
+    justify-content: center; /*justiicar conteudo*/
+    flex-direction: column; /*direção flexível*/
+    
+    
+}
+
+h1  {color: #00A551;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+p{
+font-size: 12px;
+
+
+}
+
+
+
+.left>img{
+    
+    width: 329px; /*largura*/
+    height: 583px; /*altura*/
+     
+     
+    text-align: center; /*alinhamento de texto*/
+    display: flex; /* mostrar*/
+    justify-content: space-between; /*justificar conteudo / espaço entre*/
+    flex-direction: column; /**/
+    padding-left: 10px;
+    
+   
+    
+}
+
+
+.right{
+    
+    width: 393px; /**/
+    height: 550px; /**/
+    background: #FFFFFF; /**/
+    color: #000000; /**/
+    text-align: center; /**/
+    justify-content: center; /**/
+    align-items: center; /**/
+    flex-direction: column; /**/
+    border-radius: 0 20px 20px 0; /**/
+    padding: 60px; /**/
+    
+
+    
+    
+}
+
+.card{
+    /*border: 5px solid red;*/
+    width: 393px;
+    height: 405px;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 10px rgba(15, 15, 15, 0.034);
+    
+}
+.card>h1{
+    color: #00A551;
+
+
+}
+
+
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin: 10px 0px; 
+    
+    
+    
+
+    
+    
+
+
+}
+input:hover{
+   
+    transition: background 0,5s;
+    background:white;
+   
+    
+}
+input{ 
+    
+    border: white;
+    cursor: pointer;
+    background: #F4F4F4;
+    
+    padding: 10px;
+    align-items: left;
+    
+
+}
+
+button{
+
+    background-color: #00A551;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+    
+}
+a{
+    color: #00A551;
+}
